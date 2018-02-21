@@ -1,0 +1,67 @@
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/card_hight_for_two"
+    card_view:cardUseCompatPadding="true"
+
+    card_view:cardCornerRadius="8dp"
+    >
+    <!--android:layout_marginBottom="4dp"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/album_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="@drawable/gradiant_bottom_drawable"
+            android:contentDescription="image"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/album_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="album_name"
+            android:textColor="@color/white"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:layout_alignParentBottom="true"
+            />
+       <!-- android:background="?attr/colorPrimary"-->
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/rl_selected_view"
+            android:layout_width="match_parent"
+            android:background="@color/transparent_black_50"
+            android:gravity="center"
+            android:layout_height="match_parent">
+           <!-- <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="image"
+                android:scaleType="centerCrop"
+                android:src="@drawable/check_selected" />-->
+
+            <TextView
+                android:id="@+id/album_selected_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="3"
+                android:textColor="@color/white"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

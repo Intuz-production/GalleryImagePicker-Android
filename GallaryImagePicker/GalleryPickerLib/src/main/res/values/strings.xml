@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CustomGalleryPicker</string>
+    <string name="albums">Albums</string>
+    <string name="done">Done</string>
+    <string name="max_limit_exceed">Your max selection limit exceed</string>
+    <string name="please_select_minimum_image">Please select minimum image</string>
+    <string name="read_external_permission_require">READ_EXTERNAL_STORAGE  Services Permission required for this app</string>
+    <string name="go_setting_enable_permission">Go to settings and enable permissions</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+</resources>
