@@ -1,4 +1,7 @@
-<h1>Introduction</h1>
+## About Intuz
+This library is maintained by [Intuz](https://www.intuz.com) — an AI-first software development company specializing in [Android app development](https://www.intuz.com/android-development)
+and [mobile app development](https://www.intuz.com/custom-app-development).
+<br><br>
 INTUZ is presenting an interesting  Gallery Image Picker component to integrate inside your Native Android based application. 
 Gallery Image Picker is a simple component, which lets you pick a multiple images from your mobile gallery. 
 
